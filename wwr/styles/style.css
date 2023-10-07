@@ -13,12 +13,14 @@
 
 
 
-
+/* container that holds body content */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+
+/* Nav content */
 .logo {
     width: 80px;
 }
@@ -37,6 +39,8 @@ nav a:hover {
     color: var(--accent3-color);
 }
 
+
+/* main body content */
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
@@ -59,10 +63,6 @@ h4 {
 
 main section {
     text-align: center;
-}
-
-#background {
-    height: 725px;
 }
 
 body {
@@ -88,6 +88,11 @@ header {
     width: 80px;
 }
 
+#background {
+    height: 725px;
+    background-color: var(--accent1-color);
+}
+
 .msg {
     background-color: var(--accent2-color);
 }
@@ -100,6 +105,8 @@ header {
     color: var(--secondary-color);
 }
 
+
+/* footer */
 footer {
     background-color: var(--secondary-color);
 }
