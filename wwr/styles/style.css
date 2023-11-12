@@ -362,7 +362,7 @@ footer .social img {
 /*small screen width !!caution all standard CSS needs 
 to be above this section!!*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid{
         display: block;
         height: auto;
     }
@@ -397,6 +397,14 @@ to be above this section!!*/
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .rivers-header1, .rivers-header2, .rivers-header3 {
+        margin-left: 10%;
+    }
+    .river-image1, .river-image3, .river-image2 {
+        width: 400px;
+        height: 240px; 
+        margin-left: 10%;   
     }
     footer {
         margin-top: 25px;
