@@ -18,14 +18,16 @@
                 <a href="aboutus.html">About Us</a>
                 <a href="site-plan.html">Site Plan</a>
             </nav>
-            <div id="hero">
-                <div id="hero-box">
-                    <img id="hero-img" src="images/ham_pizza.jpeg" alt="Close of image of a pizza with ham toppings.">
-                </div>
-                <h1 class="home-title"> Penter's Pizzeria - About Us</h1>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/ham_pizza.jpeg" alt="Close of image of a pizza with ham toppings.">
             </div>
-            <main class="about-grid">
-                <h3>Welcome to Penter’s Pizzeria!</h3>
+            <h1 class="about-title"> Penter's Pizzeria - About Us</h1>
+        </div>
+        <main class="about-grid">
+            
+                <h3 class="about-body-title">Welcome to Penter’s Pizzeria!</h3>
                 <p>
                     <br>
                     <br>
@@ -36,7 +38,7 @@
                     refined our methods over time. 
                     <br>
                 </p>
-                <img src="images/peperoni_pizza.jpeg" alt="An image of a peperoni pizza.">
+                <img class="about-img" src="images/peperoni_pizza.jpeg" alt="An image of a peperoni pizza.">
                 <p>
                     <br>
                     The pizzeria love to support the local community. We participate in many of 
@@ -51,7 +53,27 @@
                     our love for pizza for another 15 years! Thank you all for your amazing 
                     support!
                 </p>
-            </main>
+
+                <div class="contact-form">
+                    <div class="container">
+                    <h4>Contact Us</h4>
+                    <form action="action_page.php">
+                        <ul class="aboutform">
+                            <li><label for="name">First and Last Name</label></li>
+                            <li><input type="text" id="name" name="name" placeholder="Your name.."></li>
+                  
+                            <li><label for="number">Phone Number</label></li>
+                            <li><input type="tel" id="number" name="number" placeholder="Your Phone number.."></li>
+                  
+                            <li><label for="subject">Subject</label></li>
+                            <li><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></li>
+                  
+                        <li><input type="submit" value="Submit"></li>
+                        </ul>
+                    </form>
+                </div>
+            </div> 
+        </main>
             <footer>
                 <p>Penter's Pizza &copy; 2023 - Chris Carpenter</p>
                 <p><a href="site-plan.html">Site Plan</a></p>
@@ -68,7 +90,7 @@
                     </a>
                 </div>
             </footer>
-        </header>
+        
     </div>
 </body>
 </html>
