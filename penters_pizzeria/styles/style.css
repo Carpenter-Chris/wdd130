@@ -481,12 +481,12 @@ to be above this section!!*/
     footer {
         flex-direction: column;
         margin-top: 5px;
-        font-size: 15px;
         padding: 5px;
     }
 
     footer p {
         margin: 5px;
+        font-size: 15px;
     }
     
 
